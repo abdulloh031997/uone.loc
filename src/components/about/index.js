@@ -2,7 +2,7 @@ function Index() {
     return (
         <>
             <div>
-                About page
+                About page asdad
             </div>
         </>
     )
