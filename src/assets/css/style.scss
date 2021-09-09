@@ -1,5 +1,4 @@
-
-  // Section: Variables
+// Section: Variables
 :root {
 	--color-white: hsl(0, 0%, 100%);
 	--color-light: hsl(206, 33%, 96%);
@@ -41,7 +40,7 @@ body {
 	font-weight: 400;
 	line-height: 1.5;
 	color: var(--color-black);
-	background: var(--color-white);
+	background-image: url(../images/bubble-pattern.png);
 }
 
 a,
@@ -64,19 +63,10 @@ video {
 	object-fit: cover;
 }
 
-// Section: Elements
-.container {
-	max-width: 83rem;
-	width: 100%;
-	height: auto;
-	margin: 0 auto;
-	padding: 0 2rem;
-}
-
 .brand {
-
-  width: 122px;
-  line-height: 89px;
+	.image_header_logo{
+		height:102px;
+	}
 	&-link {
 		font-family: inherit;
 		font-size: 1.75rem;
