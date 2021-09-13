@@ -7,9 +7,9 @@ function Main() {
   return (
     <div>
         <Header />
-        <div className="container">
-            <div className="row">
-              <div className="col-md-12">
+        <div className="container-fluid m-0 p-0">
+            <div className="row m-0 p-0">
+              <div className="col-md-12 p-0 m-0">
                 <Switch>
                   {
                       routes.map((element,index)=>{
